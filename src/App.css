@@ -1,0 +1,49 @@
+.body {
+  height: 600px;
+  width: 600px;
+  border: 2px solid black;
+  
+   
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+  align-content: center;
+}
+
+
+.price{
+  display:flex;
+  justify-content: flex-end;
+  margin-right: 0px;
+}
+
+.quantity {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80px;
+  
+}
+
+.total {
+  display: flex;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.totalAmount {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+  font-weight: bold;
+}
